@@ -19,39 +19,30 @@
    </head>
    <body>
       <!-- settings btn -->
-     <button class="settings-btn settings-btn">
+      <button class="settings-btn" id="settings-btn">
       <i class="fas fa-cog"></i>
-     </button>
-
-     <div class="settings" id="settings">
-      <form id="settings-form">
-         <div>
-            <label for="difficulty">Difficulty</label>
-            <div id="dificulty">
-               <option value="easy">Easy</option>
-               <option value="medium">Medium</option>
-               <option value="hard">Hard</option>
+      </button>
+      <div class="settings" id="settings">
+         <form id="settings-form">
+            <div>
+               <label for="difficulty">Difficulty</label>
+               <select id="dificulty">
+                  <option value="easy">Easy</option>
+                  <option value="medium">Medium</option>
+                  <option value="hard">Hard</option>
+               </select>
             </div>
-         </div>
-      </form>
-     </div>
-
-     <div class="container">
-      <h2>Speed typer</h2>
-      <small>Type the following:</small>
-
-      <h1 id="word"></h1>
-
-      <input type="text" id="text" autocomplete="off" placeholder="Type the word here..." autofocus>
-     </div>
-
-     <p class="time-container">Time left: <span id="time">10s</span></p>
-
-     <p class="score-container">Score: <span id="score">0</span></p>
-
-     <div id="end-game-container" class="end-game-container"></div>
-
-
+         </form>
+      </div>
+      <div class="container">
+         <h2>Speed typer</h2>
+         <small>Type the following:</small>
+         <h1 id="word"></h1>
+         <input type="text" id="text" autocomplete="off" placeholder="Type the word here..." autofocus>
+         <p class="time-container">Time left: <span id="time">10s</span></p>
+         <p class="score-container">Score: <span id="score">0</span></p>
+         <div id="end-game-container" class="end-game-container"></div>
+      </div>
       <script src="script.js"></script>
    </body>
 </html>
