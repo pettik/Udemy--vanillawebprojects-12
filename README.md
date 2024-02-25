@@ -6,7 +6,6 @@
 
 Game to beat the clock by typing random words
 
-
 ## Project Specifications
 
 - Create game UI including a difficuly setting
@@ -16,23 +15,21 @@ Game to beat the clock by typing random words
 - Add certain amount of time after word is typed based on difficulty
 - Store difficulty setting in local storage
 
-
 ## Original preview
 
 <div style="margin-bottom:30px;text-align:center;display:flex; flex-direction:column;justify-content:center;" >
     <img src="./img/12_preview.png" alt="Original preview">
 </div>
 
-
-<!-- ## My solution preview
+## My solution preview
 
 <div style="text-align:center;display:flex; flex-direction:column;justify-content:center;" >
     <img style="margin-bottom:10px" src="./img/my-solution-preview.png" alt="My solution preview">
 </div>
 
+## My solution features
 
-## My solution features -->
-
+- same as an original
 
 # Author
 
